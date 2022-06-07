@@ -9,5 +9,9 @@ public class Variable09 {
 	String b = "apple";
 	String e = d + "Pie";
 	c = a == e;
+	
+	String a = "applePie";
+	String f = new String("applePie");
+	c = a == f;
 
 }
