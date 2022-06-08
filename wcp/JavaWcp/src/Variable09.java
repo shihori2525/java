@@ -13,5 +13,9 @@ public class Variable09 {
 	String a = "applePie";
 	String f = new String("applePie");
 	c = a == f;
+	
+	c = a.equals(b);
+	c = a.equals(e);
+	c = a.equals(f);
 
 }
