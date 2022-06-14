@@ -5,6 +5,12 @@ public class Switch01 {
 		swich (val) {
 			case 3;
 				System.out.println("よくできました！");
+				break;
+			case 2;
+				System.out.println("ふつうでした！");
+				break;
+			case 3;
+				System.out.println("がんばろう！");
 		}
 	}
 
