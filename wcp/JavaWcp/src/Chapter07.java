@@ -4,6 +4,8 @@ public class Chapter07 {
 		int distance = 12;
 		if (distance <= 5) {
 			System.out.println("とても近いです");
+		}else if (distance <= 10) {
+			System.out.println("近いです");
 		}
 	}
 
