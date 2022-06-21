@@ -8,6 +8,8 @@ public class Chapter07 {
 			System.out.println("近いです");
 		}else if (distance <= 15){
 			System.out.println("遠いです");
+		}else {
+			System.out.println("とても遠いです");
 		}
 	}
 
