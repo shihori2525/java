@@ -14,3 +14,13 @@ public class Chapter07 {
 	}
 
 }
+
+public class Chaptrr07 {
+	public static void main(String[] args) {
+		String color = "yellow";
+		switch(color) {
+		case "red" :
+			System.out.println("赤信号です");
+		}
+	}
+}
