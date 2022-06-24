@@ -25,6 +25,11 @@ public class Chaptrr07 {
 		case "yellow" :
 			System.out.println("黄信号です");
 			break;
+		case "blue" :
+			System.out.println("青信号です");
+			break;
+		default:
+			System.out.println("信号の色ではありません");
 		}
 	}
 }
