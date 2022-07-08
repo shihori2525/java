@@ -4,6 +4,11 @@ public class Chapter08 {
 		int num = 1;
 		while(num < 5) {
 			System.out.println(num * num);
+			num++;
+		}
+		int array[] = {1,4,14,25};
+		for (int i =0; i < array.length; i++) {
+			System.out.println(array[i]);
 		}
 	}
 
