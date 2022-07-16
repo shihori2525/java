@@ -3,7 +3,7 @@ package classMethod;
 public class Human03 {
 	public String name;
 	public int age;
-	public String professon;
+	public String profession;
 	
 	public Human03() {
 		this.name = "山田";
