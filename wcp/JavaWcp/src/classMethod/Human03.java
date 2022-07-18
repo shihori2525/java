@@ -14,5 +14,14 @@ public class Human03 {
 	public String getProfile() {
 		return "年齢は" + this.age + "、職業は" + this.profession;
 	}
+	
+	public void greet(String friend) {
+		if(friend == null) {
+			System.out.println("挨拶する友達がわかりません！");
+			return;
+		}
+		System.out.println(friend + "さん、こんにちは");
+		
+	}
 
 }
