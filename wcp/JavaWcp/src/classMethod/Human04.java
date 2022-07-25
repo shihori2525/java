@@ -8,5 +8,9 @@ public class Human04 {
 		this.name = name;
 		Human04.humanCount++;
 	}
+	
+	static public void staticMethodPrint() {
+		System.out.println("人の数は" + Human04.humanCount)
+	}
 
 }
